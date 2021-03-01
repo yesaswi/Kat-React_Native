@@ -23,6 +23,19 @@ const Cat = (props) => {
       >
         {isHungry ? "Pour me some milk, please!" : "Thank you!"}
         </Button>
+        <Text>
+
+        </Text>
+        <Button 
+      mode="contained"
+      color="blue"
+      onPress={() => {
+        setIsHungry(true);
+      }}
+      disabled={isHungry}
+      >
+        {"I'm Hungry"}
+        </Button>
     </View>
   );
 }
