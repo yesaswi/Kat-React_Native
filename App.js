@@ -54,11 +54,14 @@ const App = () => {
           }}
           style={{ width: 200, height: 200 }}
         />
+        <Text>
+          
+        </Text>
       <TextInput
         placeholder="What would you like to call me?"
         onChangeText={text => setText(text)}
         defaultValue={text}
-        style={{borderColor: 'gray', borderWidth: 0.5}}
+        // style={{borderColor: 'gray', borderWidth: 0.5}}
       />
       <Text style={{padding: 60, fontSize: 20, color: "gray"}}>
         {"Hello " + text}
